@@ -253,8 +253,8 @@ namespace sudoqu
             Console.Write("y:");
             yposition2 = Console.ReadLine();
             yposition = Convert.ToInt32(yposition2);
-            xposition3 = xposition - 1;
-            yposition3 = yposition - 1;
+            xposition3 = yposition - 1;
+            yposition3 = xposition - 1;
             Console.WriteLine("빈칸에 넣으실 숫자를 입력해주세요");
             Console.Write("값:");
             value2 = Console.ReadLine();
